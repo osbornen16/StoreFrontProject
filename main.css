@@ -1,0 +1,34 @@
+body {
+    background-image: url(assets/windowsBackground.jpg);
+    background-position: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.contentWrapper {
+    margin: 2em 10em 2em 10em;
+}
+#searchBar {
+    float: right;
+    position: relative;
+
+}
+#thumbnail {
+    width: 2em;
+    height: 2em;
+}
+nav li {
+    display: inline-block;
+    list-style: transparent;
+
+}
+header {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    height: 10em;
+    position: relative; top: -32px;
+    /* improve method of getting rid of top margin */
+ 
+}
