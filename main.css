@@ -1,13 +1,14 @@
 body {
     background-image: url(assets/windowsBackground.jpg);
-    background-position: fixed;
+    background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+    background-attachment: fixed;
+    margin: auto;
+
 }
 .contentWrapper {
-    margin: auto;
+    margin: 0 auto;
 }
 #searchBar {
     float: right;
@@ -20,30 +21,132 @@ body {
 }
 nav li {
     display: inline-block;
-    list-style: transparent;
+    list-style: none;
+}
+#topNavbar {
+    padding-left: 4em;
+    max-width: 2000px;
+    min-width: 500px;
+    margin-top: -1em;
+}
+nav#topNavbar li{
+    padding-right: 2em;
 
 }
+a { 
+    text-decoration: none;
+}
+
 header {
     background-color: burlywood;
-    margin: 0;
-    padding: 0;
-    height: 10em;
-    position: relative; top: -32px;
+    margin: 0 auto;
+    position: fixed; top: -32px;
+    min-width: 100%;
+    height: 12em;
     /* improve method of getting rid of top margin */
- 
+    z-index: 1;
 }
-
-ul li {
-    display: inline-block;
-    list-style: transparent;
+header h1{
+    padding: .75em 0 0 .75em;
+    font-size: 3em;
+    max-width:1040px;
+    min-width: 900px;
 }
 
 .panel {
     float: left;
-    width: 300px;
-
+    width:300px;
+    position: relative;
+    padding: 2em;
+    border: 2px inset black;
+}
+#panel1 {
+    background-color: white;
+}
+#panel2 {
+    background-color: tan;
+}
+#panel3 {
+    background-color: gold;
 }
 
-#testamonials {
-    width: 100%;
+div.panel h2 {
+    text-align: center;
+}
+#checkbox {
+    height: 1em;
+    width: 1em;
+}
+div.panel p {
+    padding: 1em;
+    text-align: center;
+}
+section#plansAndPricing {
+    padding: 10em 5% 0 5%;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+h1#body {
+    text-align: center;
+    font-size: 2em;
+}
+
+section#testamonials {
+    padding: 10em 5% 0 5%;
+    display: inline-block;
+    position: relative;
+    align-items:center;
+
+}
+section#testamonials div {
+    float: left;
+    max-width:1040px;
+    min-width: 520px;
+    position: relative;
+    padding: 2em;
+    border: 2px inset black;
+    background-color: white;
+}
+section#aboutUs {
+    padding: 10em 5% 0 5%;
+    display: inline-block;
+    position: relative;
+    align-items:center;
+
+}
+section#aboutUs div {
+    float: left;
+    max-width:1040px;
+    min-width: 520px;
+    position: relative;
+    padding: 2em;
+    border: 2px inset black;
+    background-color: white;
+}
+section#contactUs {
+    padding: 10em 5% 0 5%;
+    display: inline-block;
+    position: relative;
+    align-items:center;
+
+}
+section#contactUs div {
+    float: left;
+    max-width:1040px;
+    min-width: 520px;
+    position: relative;
+    padding: 2em;
+    border: 2px inset black;
+    background-color: white;
+}
+
+footer {
+    padding: 2em 5% 0 5%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 1110px;
+    color: white
+    
 }
