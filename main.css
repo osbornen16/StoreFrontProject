@@ -13,11 +13,11 @@ body {
 #searchBar {
     float: right;
     position: relative;
-
 }
 #thumbnail {
     width: 2em;
     height: 2em;
+    padding-right: 2em;
 }
 nav li {
     display: inline-block;
@@ -39,7 +39,6 @@ a {
 a:hover {
     color:brown;
 }
-
 header {
     background-color: goldenrod;
     margin: 0 auto;
@@ -60,7 +59,7 @@ header h1{
     float: left;
     width:300px;
     position: relative;
-    padding: 2em;
+    padding: 1em 2em;
     border: 2px inset black;
 }
 #panel1 {
@@ -84,6 +83,12 @@ div.panel p {
     padding: 1em;
     text-align: center;
 }
+.purchase {
+    background-color: silver;
+}
+.purchase:hover {
+    background-color: lightsalmon;
+}
 section#plansAndPricing {
     padding: 10em 5% 0 5%;
     display: inline-block;
@@ -105,11 +110,17 @@ section#testamonials {
 section#testamonials div {
     float: left;
     max-width:1040px;
-    min-width: 520px;
+    min-width: 450px;
     position: relative;
     padding: 2em;
     border: 2px inset black;
     background-color: tan;
+}
+.centeredTestamonials {
+    text-align: center;
+}
+#italics {
+    font-style: italic;
 }
 section#aboutUs {
     padding: 10em 5% 0 5%;
@@ -121,7 +132,7 @@ section#aboutUs {
 section#aboutUs div {
     float: left;
     max-width:1040px;
-    min-width: 520px;
+    min-width: 150px;
     position: relative;
     padding: 2em;
     border: 2px inset black;
@@ -132,12 +143,12 @@ section#contactUs {
     display: inline-block;
     position: relative;
     align-items:center;
-
+    margin: 0 12% 0 12%;
 }
 section#contactUs div {
     float: left;
     max-width:1040px;
-    min-width: 520px;
+    min-width: 250px;
     position: relative;
     padding: 2em;
     border: 2px inset black;
